@@ -1,9 +1,9 @@
 # Use an official Node.js runtime as a parent image
-FROM node:18
+FROM node:18-mini
 
 # Set the working directory inside the container
 WORKDIR /app
-
+step-2
 # Copy package.json and package-lock.json before installing dependencies
 COPY package*.json ./
 
